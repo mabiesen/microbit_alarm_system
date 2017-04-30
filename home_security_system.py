@@ -32,6 +32,7 @@ def buzzer_alarm():
     pin0.write_digital(1)
     sleep(500)
     pin0.write_digital(0)
+    sleep(100)
     
 #Toggle alarm ability on or off
 def toggle_alarm_ability():
