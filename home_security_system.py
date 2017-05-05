@@ -10,7 +10,10 @@ my_alarm_length = 5
 #Lets immediately turn on the radio
 radio.on()
 
-#Detect motion? lets use the z accelerometer value and see if that will work
+# Detect motion? lets use the z accelerometer value and see if that will work.
+# The z axis refers to up down direction if you are holding the microbit horizontally relative to the gorund.
+# If you turn the microbit on its side, z axis would therefore be left and right
+# Therefore, for this code to work, you will have to mount the microbit upright on the door
 
 # Determine whether motion occurred by comparing initial to current z value
 def detect_motion(initialzvalue,currentzvalue):
