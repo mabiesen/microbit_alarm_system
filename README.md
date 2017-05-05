@@ -31,3 +31,6 @@ If you find that the alarm is ringing and you don't want to wait to shut the sou
 
 You will want to assign an appropriate "my_id" variable in the python code of the microbits to reflect alarm location; otherwise you will not be getting the most value from this project.  For the microbit using a buzzer, make sure to set the "has_buzzer" variable to True.`
 
+### Going Further
+
+You could connect one of the microbits to a pc and use it as a hub to transfer data to the pc (see my microbit laser pointer repo, microbit hub code.).  You could then use python code to transmit a text message or email to your mobile device for on-the-go alerts.
