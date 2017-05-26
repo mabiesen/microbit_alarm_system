@@ -2,6 +2,8 @@ from microbit import *
 import radio
 
 #Global variables
+# CHANGE THE MY ID VARIABLE TO REPRESENT THE DOOR OR WINDOW
+# CHANGE THE HAS BUZZER VARIABLE IF THIS SPECIFIC MICROBIT WILL BE CONNECTED TO A BUZZER
 alarm_is_active = True
 my_id = "Bck"
 has_buzzer = False
