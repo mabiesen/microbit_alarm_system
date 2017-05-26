@@ -6,6 +6,8 @@ Created a basic alarm system using the microbit.  Alarm system is intended for u
 
 1.  Micropython text editor for the Micro bit.  For this activity I used Mu.
 
+THIS CODE REQUIRES ALTERATION OF THE MY ID VARIABLE TO WORK AS INTENDED.
+
 Note: the editor isn't really required, you can connect in other ways, but this is easy
 
 Note: I had issues installing Mu on Ubuntu, but great success on the Raspberry Pi and Windows 10.
