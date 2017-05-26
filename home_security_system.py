@@ -4,6 +4,8 @@ import radio
 #Global variables
 # CHANGE THE MY ID VARIABLE TO REPRESENT THE DOOR OR WINDOW
 # CHANGE THE HAS BUZZER VARIABLE IF THIS SPECIFIC MICROBIT WILL BE CONNECTED TO A BUZZER
+# optionally edit my_alarm_length to change how long the alarm is sounded
+
 alarm_is_active = True
 my_id = "Bck"
 has_buzzer = False
